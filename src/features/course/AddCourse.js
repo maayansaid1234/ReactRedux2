@@ -6,6 +6,8 @@ const AddCourse  = () => {
 const dispatch=useDispatch();
 const {register,handleSubmit}=useForm();
 
+
+
 function save(data){
   
 dispatch(addToArr(data))
